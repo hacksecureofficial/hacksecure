@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react';  // Import Formspree
-import Navbar from '../components/navbar'  // Correct the import path
-import Footer from '../components/footer'  // Correct the import path
+import Navbar from './navbar'  // Correct the import path
+import Footer from './footer'  // Correct the import path
 
 export default function Contact() {
   const [formData, setFormData] = useState({
